@@ -19,11 +19,11 @@ const Home = (props) => {
 
             <Container>
                 <Row>
-                    <Col md='9'>
+                    <Col xs='auto' md='3 offset-2'>
                         <h1 className="display-5">About Me</h1>
                         <p className="lead">this is about me</p>
                     </Col>
-                    <Col md='3'>
+                    <Col xs='auto' md='1 offset-3'>
                         <h1 className="display-5">Contact</h1>
                         <p className="lead">Links</p>
                     </Col>

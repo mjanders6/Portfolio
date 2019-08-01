@@ -1,5 +1,6 @@
 import React from 'react';
 import { Jumbotron, Container, Row, Col } from 'reactstrap';
+// import { Jumbotron, Container, Row, Col } from 'react-bootstrap'
 
 const Portfolio = (props) => {
     return (
