@@ -1,6 +1,6 @@
 import React from 'react';
 import { Jumbotron, Container, Row, Col } from 'reactstrap';
-// import { Jumbotron, Container, Row, Col } from 'react-bootstrap'
+import CardDeck from '../../components/CardDeck'
 
 const Portfolio = (props) => {
     return (
@@ -8,11 +8,16 @@ const Portfolio = (props) => {
             <Jumbotron fluid>
                 <Container fluid>
                     <Row>
-                        <Col xs="6">.col-6</Col>
-                        <Col xs="6">.col-6</Col>
+                        <Col xs="12" className='text-center'>
+                            <h1 className="display-4">Projects</h1>
+                            <p className="lead">Take a look at a few of my favorite projects! </p>
+                        </Col>
                     </Row>
                 </Container>
             </Jumbotron>
+
+            <CardDeck />
+
         </div>
     );
 };
