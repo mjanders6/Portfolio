@@ -1,5 +1,6 @@
-import React from 'react';
-import { Jumbotron, Container, Row, Col } from 'reactstrap';
+import React from 'react'
+import { Jumbotron, Container, Row, Col } from 'reactstrap'
+import Skills from '../../components/Skills'
 
 const Home = (props) => {
     return (
@@ -45,6 +46,8 @@ const Home = (props) => {
             </Container>
 
             {/* Skills */}
+            <Skills />
+
         </div>
     );
 };
