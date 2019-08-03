@@ -10,7 +10,7 @@ import { DiNodejsSmall } from "react-icons/di"
 
 const Cards = (props) => {
     return (
-        <Container>
+        <Container id='skills'>
             <Row>
                 <Col className='text-center'>
                     <h1 className="display-5">Skills</h1>

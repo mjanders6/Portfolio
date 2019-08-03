@@ -18,7 +18,7 @@ const Home = (props) => {
                 </Container>
             </Jumbotron>
 
-            <Container>
+            <Container id='home-container'>
                 <Row>
                     <Col lg='2'></Col>
                     <Col xs='auto' lg='6'>
