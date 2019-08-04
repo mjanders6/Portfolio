@@ -4,7 +4,6 @@ import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
-import AboutMe from './pages/AboutMe'
 
 class App extends Component {
   render() {

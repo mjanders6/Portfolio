@@ -1,8 +1,9 @@
 import React from 'react';
-import { Container, Card, Button, CardImg, CardTitle, CardText, CardDeck, CardSubtitle, CardBody } from 'reactstrap';
+import { Container, Card, CardImg, CardTitle, CardText, CardDeck, CardSubtitle, CardBody } from 'reactstrap';
 import image2 from '../../assets/2.png'
 import image3 from '../../assets/3.png'
 import image4 from '../../assets/4.png'
+import image5 from '../../assets/5.png'
 
 const Cards = (props) => {
     return (
@@ -29,10 +30,19 @@ const Cards = (props) => {
                 <Card>
                     <CardImg top width="100%" src={image4} alt="Card image cap" />
                     <CardBody>
-                        <CardTitle>Whip it up!</CardTitle>
-                        <CardSubtitle>Make it your self or too lazy too cook</CardSubtitle>
+                        <CardTitle>Hungary Buddy</CardTitle>
+                        <CardSubtitle>Make it your self! Or if your too lazy to cook, find it yourself.</CardSubtitle>
                         <CardText></CardText>
                         <a href='https://github.com/mjanders6/PantryProject' target="_blank">Github</a> | <a href='https://mjanders6.github.io/PantryProject/' target="_blank">Deployed App</a>
+                    </CardBody>
+                </Card>
+                <Card>
+                    <CardImg top width="100%" src={image5} alt="Card image cap" />
+                    <CardBody>
+                        <CardTitle>Book Worm</CardTitle>
+                        <CardSubtitle>Search for books and store them in your library</CardSubtitle>
+                        <CardText></CardText>
+                        <a href='https://github.com/mjanders6/book-search' target="_blank">Github</a> | <a href='https://rocky-dusk-71305.herokuapp.com/' target="_blank">Deployed App</a>
                     </CardBody>
                 </Card>
             </CardDeck>

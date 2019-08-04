@@ -35,7 +35,9 @@ const Home = (props) => {
                     <Col lg='2'></Col>
                     <Col xs='auto' lg='6'>
                         <h1 className="display-5">About Me</h1>
-                        <p className="lead">This is about me. I will be updating this shortly to go over what I am about and where I want to go. </p>
+                        <p className="lead">
+                            This is about me. I will be updating this shortly to go over what I am about and where I want to go. 
+                        </p>
                     </Col>
                     <Col xs='auto' lg='3'>
                         <h1 className="display-5">Contact</h1>
