@@ -10,21 +10,16 @@ const Home = (props) => {
         <div>
             <Jumbotron fluid id='home-jumbo'>
                 <Container fluid>
-                    {/* <Row>
-                        <Col className='text-center'>
-                            <img src={coverPic} alt='Avatar' />
-                        </Col>
-                    </Row> */}
                     <Row>
                         <Col className='text-center' lg='1'>
                             <img id='home-pic' src={coverPic} alt='Avatar' />
                         </Col>
                         <Col className='text-center'>
                             <h1 className="display-4">Michael J. Anderson</h1>
-                            <p className="lead">Full Stack Web Developer</p>
+                            <p className="lead">Full Stack Web Developer | Orange County, CA</p>
                             <hr className="my-2" />
                             <br />
-                            <p>Passion for developing web applications and solving problems</p>
+                            <p>Excellent problem solver, collaborator and enjoy challenges to work within a team to tackle complex issues</p>
                         </Col>
                     </Row>
                 </Container>
@@ -36,7 +31,7 @@ const Home = (props) => {
                     <Col xs='auto' lg='6'>
                         <h1 className="display-5">About Me</h1>
                         <p className="lead">
-                            This is about me. I will be updating this shortly to go over what I am about and where I want to go. 
+                        I have a passion for developing web applications and solving problems. 
                         </p>
                     </Col>
                     <Col xs='auto' lg='3'>
