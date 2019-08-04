@@ -1,11 +1,12 @@
 import React from 'react';
 import { Jumbotron, Container, Row, Col } from 'reactstrap';
 import CardDeck from '../../components/CardDeck'
+import './Portfolio.css'
 
 const Portfolio = (props) => {
     return (
         <div>
-            <Jumbotron fluid>
+            <Jumbotron fluid id='projects-jumbo'>
                 <Container fluid>
                     <Row>
                         <Col xs="12" className='text-center'>

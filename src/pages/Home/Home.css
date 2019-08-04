@@ -1,0 +1,14 @@
+div a {
+    color: black;
+}
+
+#home-jumbo {
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+img#home-pic{
+    border-radius: 50%;
+    width: 175px;
+    /* transform: rotate(90deg); */
+}
