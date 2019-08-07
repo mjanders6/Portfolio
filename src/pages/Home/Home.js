@@ -31,11 +31,17 @@ const Home = (props) => {
                     <Col xs='auto' lg='6'>
                         <h1 className="display-5">About Me</h1>
                         <p className="lead">
-                        I have a passion for developing web applications and solving problems. 
+                            I have a passion for developing web applications and solving problems.
                         </p>
                     </Col>
                     <Col xs='auto' lg='3'>
                         <h1 className="display-5">Contact</h1>
+
+                        <a href='mjanders6@gmail.com' target='_blank'>
+                            <span class="icon-stack">
+                                <i class="icon-envelope"></i>
+                            </span>
+                            Email: mjanders6@gmail.com</a> <br />
 
                         <a href='https://github.com/mjanders6' target='_blank'>
                             <span class="icon-stack">
