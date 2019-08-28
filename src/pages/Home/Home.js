@@ -1,5 +1,5 @@
 import React from 'react'
-import { Jumbotron, Container, Row, Col } from 'reactstrap'
+import { Link, Jumbotron, Container, Row, Col } from 'reactstrap'
 import { Image } from 'react-bootstrap/Image'
 import Skills from '../../components/Skills'
 import './Home.css'
@@ -31,7 +31,7 @@ const Home = (props) => {
                     <Col xs='auto' lg='6'>
                         <h1 className="display-5">About Me</h1>
                         <p className="lead">
-                            I have a passion for developing web applications and solving problems.
+                            A renaissance man with the ability and know how to tackle fun and challenging problems. I have over 5 years of experience building and leading teams and have been able to tap into my technical side to enhance key parts to operations.
                         </p>
                     </Col>
                     <Col xs='auto' lg='3'>
@@ -54,6 +54,11 @@ const Home = (props) => {
                                 <i class="icon-linkedin-sign"></i>
                             </span>
                             Linkedin</a> <br />
+                        <a href='https://docs.google.com/document/d/16um-utr0RXBbrOxiUNsNUROm90yjCxY_UE5SHjQNIBI/edit?usp=sharing' target='_blank'>
+                            <span class="icon-stack">
+                                <i class="icon-download-alt"></i>
+                            </span>
+                            Resume</a> <br />
                     </Col>
                 </Row>
             </Container>
