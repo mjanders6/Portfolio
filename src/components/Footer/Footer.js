@@ -10,7 +10,7 @@ const Footer = _ => {
         return (
             <div>
                 <Navbar id='footer' bottom color="light" light expand="md">
-                    <h7 href="/">Michael J. Anderson | 2019</h7>                    
+                    <h7 href="/">Michael J. Anderson | 2022</h7>                    
                 </Navbar>
             </div>
         );

@@ -16,7 +16,7 @@ const Home = (props) => {
                         </Col>
                         <Col className='text-center'>
                             <h1 className="display-4">Michael J. Anderson</h1>
-                            <p className="lead">Full Stack Web Developer | Orange County, CA</p>
+                            <p className="lead">Full Stack Web Developer | Tacoma, WA</p>
                             <hr className="my-2" />
                             <br />
                             <p>Excellent problem solver, collaborator and enjoy challenges to work within a team to tackle complex issues</p>
