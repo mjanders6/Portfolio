@@ -27,7 +27,7 @@ export default class Example extends React.Component {
     render() {
         return (
             <div>
-                <Navbar color="light" light expand="md">
+                <Navbar fixed='top' color="light" light expand="md">
                     <NavbarBrand href="/">Michael J. Anderson</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
