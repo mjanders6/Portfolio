@@ -8,7 +8,7 @@ div a {
 }
 
 img#home-pic{
-    border-radius: 50%;
-    width: 175px;
+    border-radius: 40%;
+    width: 200px;
     /* transform: rotate(90deg); */
 }
