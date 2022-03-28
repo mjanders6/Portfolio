@@ -31,7 +31,10 @@ const Home = (props) => {
                     <Col xs='auto' lg='6'>
                         <h1 className="display-5">About Me</h1>
                         <p className="lead">
-                            A renaissance man with the ability and know how to tackle fun and challenging problems. I have over 5 years of experience building and leading teams and have been able to tap into my technical side to enhance key parts to operations.
+                            A jack-of-all trades with the ability and know how to tackle fun and challenging problems. I am passionate for Full Stack web development and getting my hands dirty clenaing up old computers and turning them into great home servers. Upgrading an old computer is often cheaper than buying a new one - gotta be thrifty to be nifty
+                        </p>
+                        <p className="lead">
+                            Latest Hobby: I took an old Dell Inspiron 530 and upgraded the BIOS, CPU(3.33 GHz), RAM(8 GB), and hard drive(500 GB SSD + 250 GB HHD). In addition, I installed an Ubuntu Server that is hosting a Minecraft Java Edition server, MySQL Server, and a MongoDB Server. 
                         </p>
                     </Col>
                     <Col xs='auto' lg='3'>
