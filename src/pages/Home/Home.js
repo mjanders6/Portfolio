@@ -54,6 +54,11 @@ const Home = (props) => {
                                 <i class="icon-linkedin-sign"></i>
                             </span>
                             Linkedin</a> <br />
+                        <a href='https://www.youtube.com/channel/UC7I7Jhn3rRVAtEqMiHvTv-w' target='_blank'>
+                            <span class="icon-stack">
+                                <i class="icon-youtube-sign"></i>
+                            </span>
+                            YouTube</a> <br />
                         <a href='https://docs.google.com/document/d/16um-utr0RXBbrOxiUNsNUROm90yjCxY_UE5SHjQNIBI/edit?usp=sharing' target='_blank'>
                             <span class="icon-stack">
                                 <i class="icon-download-alt"></i>
