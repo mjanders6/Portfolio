@@ -16,10 +16,12 @@ const Home = (props) => {
                         </Col>
                         <Col className='text-center'>
                             <h1 className="display-4">Michael J. Anderson</h1>
-                            <p className="lead">Full Stack Web Developer | Tacoma, WA</p>
+                            <h2 className="lead">Full Stack Web Developer | Tacoma, WA</h2>
                             <hr className="my-2" />
                             <br />
-                            <p>Excellent problem solver, collaborator and enjoy challenges to work within a team to tackle complex issues</p>
+                            <h5>Problem solver - Collaborator</h5><br />
+                            <h5>Member of a team to tackle complex issues</h5><br />
+                            <h5>A jack-of-all trades with the ability and know how to tackle fun and challenging problems.</h5>
                         </Col>
                     </Row>
                 </Container>
@@ -31,10 +33,13 @@ const Home = (props) => {
                     <Col xs='auto' lg='6'>
                         <h1 className="display-5">About Me</h1>
                         <p className="lead">
-                            A jack-of-all trades with the ability and know how to tackle fun and challenging problems. I am passionate for Full Stack web development and getting my hands dirty clenaing up old computers and turning them into great home servers. Upgrading an old computer is often cheaper than buying a new one - gotta be thrifty to be nifty
+                            I am passionate for Full Stack web development and getting my hands dirty clenaing up old computers and turning them into great home servers. Upgrading an old computer is often cheaper than buying a new one - gotta be thrifty to be nifty
                         </p>
                         <p className="lead">
-                            Latest Hobby: I took an old Dell Inspiron 530 and upgraded the BIOS, CPU(3.33 GHz), RAM(8 GB), and hard drive(500 GB SSD + 250 GB HHD). In addition, I installed an Ubuntu Server that is hosting a Minecraft Java Edition server, MySQL Server, and a MongoDB Server. 
+                            What I'm Working Towards: I am working to furhter my career in the IT and Web Development world.
+                        </p>
+                        <p className="lead">
+                            Latest Hobby: I took an old Dell Inspiron 530 and upgraded the BIOS, CPU(3.33 GHz), RAM(8 GB), and hard drive(500 GB SSD + 250 GB HHD). In addition, I installed an Ubuntu Server that is hosting a Minecraft Java Edition server, MySQL Server, and a MongoDB Server.
                         </p>
                     </Col>
                     <Col xs='auto' lg='3'>
@@ -57,11 +62,11 @@ const Home = (props) => {
                                 <i class="icon-linkedin-sign"></i>
                             </span>
                             Linkedin</a> <br />
-                        <a href='https://www.youtube.com/channel/UC7I7Jhn3rRVAtEqMiHvTv-w' target='_blank'>
+                        {/* <a href='https://www.youtube.com/channel/UC7I7Jhn3rRVAtEqMiHvTv-w' target='_blank'>
                             <span class="icon-stack">
                                 <i class="icon-youtube-sign"></i>
                             </span>
-                            YouTube</a> <br />
+                            YouTube</a> <br /> */}
                         <a href='https://docs.google.com/document/d/16um-utr0RXBbrOxiUNsNUROm90yjCxY_UE5SHjQNIBI/edit?usp=sharing' target='_blank'>
                             <span class="icon-stack">
                                 <i class="icon-download-alt"></i>
