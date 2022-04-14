@@ -31,7 +31,7 @@ const Home = (props) => {
                 <Row>
                     <Col lg='2'></Col>
                     <Col xs='auto' lg='6'>
-                        <h1 className="display-5">About Me</h1>
+                        <h1 className="display-5">ABOUT ME</h1>
                         <p className="lead">
                             I am passionate about Full-Stack web development and getting my hands dirty cleaning up old computers and turning them into great home servers. Upgrading an old computer is often cheaper than buying a new one - gotta be thrifty to be nifty.
                         </p>
