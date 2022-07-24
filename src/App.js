@@ -12,9 +12,9 @@ class App extends Component {
         <NavBar />
 
         <Switch>
-          <Route exact path='/' component={() => <Home />} />
+          <Route exact path='/portfolio' component={() => <Home />} />
           <Route path='/Projects' component={() => <Portfolio />} />
-          <Redirect to='/' component={() => <Home />} />
+          <Redirect to='/portfolio' component={() => <Home />} />
         </Switch>
 
         <Footer />

@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://mj-anderson.com",
+  "homepage": "localhost:8081/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
