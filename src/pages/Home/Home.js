@@ -16,12 +16,12 @@ const Home = (props) => {
                         </Col>
                         <Col className='text-center'>
                             <h1 className="display-4">Michael J. Anderson</h1>
-                            <h2 className="lead">Full Stack Web Developer | Tacoma, WA</h2>
+                            <h2 className="lead">Full Stack Web Developer | Olympia, WA</h2>
                             <hr className="my-2" />
                             <br />
-                            <h5>Problem solver - Collaborator</h5><br />
+                            <h5>Problem Solver - Collaborator</h5><br />
                             {/* <h5>Member of a team to tackle complex issues</h5><br /> */}
-                            <h5>Jack-of-all trades with the ability and know how to tackle fun and challenging problems.</h5>
+                            {/* <h5>Jack-of-all trades with the ability and know how to tackle fun and challenging problems.</h5> */}
                         </Col>
                     </Row>
                 </Container>
@@ -33,13 +33,13 @@ const Home = (props) => {
                     <Col xs='auto' lg='6'>
                         <h1 className="display-5">About Me</h1>
                         <p className="lead">
-                            I am passionate about Full-Stack web development and getting my hands dirty cleaning up old computers and turning them into great home servers. Upgrading an old computer is often cheaper than buying a new one - gotta be thrifty to be nifty.
+                            I am passionate about Full-Stack web development and getting my hands dirty cleaning up old computers and turning them into great home servers. Upgrading an old computer brings more fulfilment than buying a new one.
                         </p>
                         <p className="lead">
-                            What I'm Working Towards: I am working to further my career in the IT and Web Development world.
+                            What I'm Working Towards: I am working to further my career in the IT, Cyber Security, and Web Development world.
                         </p>
                         <p className="lead">
-                            Latest Hobby: I took an old Dell Inspiron 530 and upgraded the BIOS, CPU(3.33 GHz), RAM(8 GB), and hard drive(500 GB SSD + 250 GB HHD). In addition, I installed an Ubuntu Server that hosts a Minecraft Java Edition server, MySQL Server, and a MongoDB Server.
+                            Latest Hobby: I took an old Dell Inspiron 530 and upgraded the BIOS, CPU(3.33 GHz), RAM(8 GB), and hard drive(500 GB SSD + 500 GB HHD). In addition, I installed an Ubuntu Server that hosts a Minecraft Java Edition server, MySQL Server, and a MongoDB Server. My kids and I have alot of fun building different Minecraft worlds.
                         </p>
                     </Col>
                     <Col xs='auto' lg='3'>
