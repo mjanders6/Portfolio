@@ -16,12 +16,14 @@ const Home = (props) => {
                         </Col>
                         <Col className='text-center'>
                             <h1 className="display-4">Michael J. Anderson</h1>
-                            <h2 className="lead">Full Stack Web Developer | Olympia, WA</h2>
+                            <h2 className="lead">Olympia, WA</h2>
+                            <h2 className="lead">Full Stack Web Developer | IT | Cyber Security</h2>
+                            <h2 className="lead">Active Duty Army</h2>
                             <hr className="my-2" />
                             <br />
-                            <h5>Problem Solver - Collaborator</h5><br />
-                            {/* <h5>Member of a team to tackle complex issues</h5><br /> */}
-                            {/* <h5>Jack-of-all trades with the ability and know how to tackle fun and challenging problems.</h5> */}
+                            {/* <h5>Problem Solver - Collaborator</h5><br /> */}
+                            <h2 className="lead">"It's too big a world to be in competition with everyone. The only person who I have to be better than is myself." - Col. Potter (M*A*S*H Quote)</h2><br />
+                            {/* <h2 className="lead">- Col. Potter (MASH Quote)</h2> */}
                         </Col>
                     </Row>
                 </Container>
@@ -33,16 +35,16 @@ const Home = (props) => {
                     <Col xs='auto' lg='6'>
                         <h1 className="display-5">About Me</h1>
                         <p className="lead">
-                            I am passionate about Full-Stack web development and getting my hands dirty cleaning up old computers and turning them into great home servers. Upgrading an old computer brings more fulfilment than buying a new one.
+                            I am passionate about Full-Stack web development and getting my hands dirty cleaning up old computers and turning them into great home servers. Upgrading an old computer brings more fulfilment than buying a new one. 
                         </p>
                         <p className="lead">
-                            <u><b>What I'm Working Towards:</b></u> I am working to further my career in the IT, Cyber Security, and Web Development world.
+                            <u><b>Current Path:</b></u> I am working to further my career in the IT, Cyber Security, and Web Development world.
                         </p>
                         <p className="lead">
-                        <u><b>Latest Hobby:</b></u> I took an old Dell Inspiron 530 and upgraded the BIOS, CPU(3.33 GHz), RAM(8 GB), and hard drive(500 GB SSD + 500 GB HHD). In addition, I installed an Ubuntu Server that hosts a Minecraft Java Edition server, MySQL Server, and a MongoDB Server. My kids and I have alot of fun building different Minecraft worlds.
+                            <u><b>Goals:</b></u> I am currently working towards earning the Security+ and Network+ credentials. I am gearing up to work in the IT and Cyber Security world when I transition back into civilain life. 
                         </p>
                         <p className="lead">
-                        <u><b>Latest Goals:</b></u> I am currently working towards earning the Security+ and Network+ credentials. 
+                            <u><b>Latest Hobby:</b></u> I took an old Dell Inspiron 530 and upgraded the BIOS, CPU(3.33 GHz), RAM(8 GB), and hard drive(500 GB SSD + 500 GB HHD). In addition, I installed an Ubuntu Server that hosts a Minecraft Java Edition server, MySQL Server, and a MongoDB Server. My kids and I have alot of fun building different Minecraft worlds.
                         </p>
                     </Col>
                     <Col xs='auto' lg='3'>
@@ -65,11 +67,6 @@ const Home = (props) => {
                                 <i class="icon-linkedin-sign"></i>
                             </span>
                             Linkedin</a> <br />
-                        {/* <a href='https://www.youtube.com/channel/UC7I7Jhn3rRVAtEqMiHvTv-w' target='_blank'>
-                            <span class="icon-stack">
-                                <i class="icon-youtube-sign"></i>
-                            </span>
-                            YouTube</a> <br /> */}
                         <a href='https://docs.google.com/document/d/16um-utr0RXBbrOxiUNsNUROm90yjCxY_UE5SHjQNIBI/edit?usp=sharing' target='_blank'>
                             <span class="icon-stack">
                                 <i class="icon-download-alt"></i>
