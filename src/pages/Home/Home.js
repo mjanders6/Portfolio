@@ -36,10 +36,13 @@ const Home = (props) => {
                             I am passionate about Full-Stack web development and getting my hands dirty cleaning up old computers and turning them into great home servers. Upgrading an old computer brings more fulfilment than buying a new one.
                         </p>
                         <p className="lead">
-                            What I'm Working Towards: I am working to further my career in the IT, Cyber Security, and Web Development world.
+                            <u><b>What I'm Working Towards:</b></u> I am working to further my career in the IT, Cyber Security, and Web Development world.
                         </p>
                         <p className="lead">
-                            Latest Hobby: I took an old Dell Inspiron 530 and upgraded the BIOS, CPU(3.33 GHz), RAM(8 GB), and hard drive(500 GB SSD + 500 GB HHD). In addition, I installed an Ubuntu Server that hosts a Minecraft Java Edition server, MySQL Server, and a MongoDB Server. My kids and I have alot of fun building different Minecraft worlds.
+                        <u><b>Latest Hobby:</b></u> I took an old Dell Inspiron 530 and upgraded the BIOS, CPU(3.33 GHz), RAM(8 GB), and hard drive(500 GB SSD + 500 GB HHD). In addition, I installed an Ubuntu Server that hosts a Minecraft Java Edition server, MySQL Server, and a MongoDB Server. My kids and I have alot of fun building different Minecraft worlds.
+                        </p>
+                        <p className="lead">
+                        <u><b>Latest Goals:</b></u> I am currently working towards earning the Security+ and Network+ credentials. 
                         </p>
                     </Col>
                     <Col xs='auto' lg='3'>
