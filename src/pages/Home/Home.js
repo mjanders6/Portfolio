@@ -50,7 +50,7 @@ const Home = (props) => {
                     <Col xs='auto' lg='3'>
                         <h1 className="display-5">Contact</h1>
 
-                        <a href='mjanders6@gmail.com' target='_blank'>
+                        <a >
                             <span class="icon-stack">
                                 <i class="icon-envelope"></i>
                             </span>
