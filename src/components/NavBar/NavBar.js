@@ -28,7 +28,8 @@ export default class Example extends React.Component {
         return (
             <div>
                 <Navbar fixed='top' color="light" light expand="md">
-                    <NavbarBrand href="/portfolio">Michael J. Anderson</NavbarBrand>
+                    {/* <NavbarBrand href="/portfolio">Michael J. Anderson</NavbarBrand> */}
+                    <NavbarBrand href="/">Michael J. Anderson</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
